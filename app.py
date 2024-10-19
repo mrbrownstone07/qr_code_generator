@@ -1,11 +1,11 @@
-import streamlit as st
-import streamlit_themes as st_theme
-from PIL import Image
-import qrcode
-from colorthief import ColorThief
-from io import BytesIO
-import pyperclip
 import os
+import qrcode
+import pyperclip
+from PIL import Image
+import streamlit as st
+from io import BytesIO
+from colorthief import ColorThief
+
 
 # Function to extract color suggestions from an image
 def get_image_colors(image_path, num_colors=6):
